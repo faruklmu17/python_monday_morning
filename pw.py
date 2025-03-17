@@ -7,3 +7,5 @@ with sync_playwright() as p:
     page.goto("https://google.com")
     print(page.title())
     browser.close()
+
+print("Shakti")
